@@ -9,5 +9,9 @@ print(total_words) """
 
 
 #tipcalculator
-x=input("What is your bill?")
-print(x)
+b=input("What is your bill?")
+x=float(b)
+t=input("How much do you want to tip?")
+y=int(t)
+z=b+t
+print(f'')

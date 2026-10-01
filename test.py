@@ -1,4 +1,6 @@
-def spaces(n,y,t):
+def occupied(n,y,t):
+    spaces=0
     for i in range(n):
-        if y[0]=="c" and t[0]=="c":
-            
+        if y[i]=="c" and t[i]=="c":
+            spaces=spaces + 1
+        return spaces

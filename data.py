@@ -28,3 +28,21 @@ number = int(input("Enter a number: "))
 print(odd_or_even(number)) """
 
 
+#challenge2
+b=input("What is your bill?")
+x=float(b)
+t=input("Was the service ['bad', 'okay', 'good', 'great']?")
+if t == "bad":
+    y=0
+elif t == "okay":
+    y=0.15
+elif t == "good":
+    y=0.20
+elif t == "great":
+    y=0.25
+else:
+    print("Invalid input")
+    exit()
+
+z=x*y
+print(f"Your tip amount is {z}")

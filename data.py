@@ -49,19 +49,15 @@ else:
     print(f"Your total is {b}") """
 
 #challenge3
-""" x=int(input("Enter a positive number "))
+x=int(input("Enter a positive number "))
 factors=[]
 for i in range(1, x + 1):
     if x % i == 0:
         factors.append(i)
-print(f"The factors of {x} are: {factors}") """
+print(f"The factors of are {factors}")
 
 #challenge4
-x=int(input("Enter a positive number "))
+""" x=int(input("Enter a positive number "))
 y=int(input("Enter another positive number "))
-larger = max(x,y)
-smaller = min(x,y)
-
-z=larger/smaller
-print(z)
+ """
 

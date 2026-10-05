@@ -57,7 +57,7 @@ for i in range(1, x + 1):
 print(f"The factors of are {factors}")
 
 #challenge4
-""" x=int(input("Enter a positive number "))
+x=int(input("Enter a positive number "))
 y=int(input("Enter another positive number "))
- """
+
 

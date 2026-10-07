@@ -17,17 +17,18 @@
     print (owner) """
 
 
-
-def wizards (N,start,duels):
+""" def wizards (N,start,duels):
     wizards(3, "A", ["BA", "CB", "DA"])
     owner=start
     changed_hands=1
     #print(duels[0][1])
    
-    if duels[0][1]==owner:
-        owner=duels[0][0]
-        changed_hands+=1
-    print(owner,changed_hands)
+    for i in duels(N):
+        if duels[0][1]==owner:
+            owner=duels[i][0]
+            changed_hands+=1
+        print(owner,changed_hands) """
 
-    
 
+#englishorfrench
+def english_or_french (N,t,s):

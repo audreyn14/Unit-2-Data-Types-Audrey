@@ -49,15 +49,20 @@ else:
     print(f"Your total is {b}") """
 
 #challenge3
-x=int(input("Enter a positive number "))
+""" x=int(input("Enter a positive number "))
 factors=[]
 for i in range(1, x + 1):
     if x % i == 0:
         factors.append(i)
-print(f"The factors of are {factors}")
+print(f"The factors of are {factors}") """
 
 #challenge4
 x=int(input("Enter a positive number "))
 y=int(input("Enter another positive number "))
 
+def greatest_common_factor(number1, number2):
+    while number2:
+        number1, number2 = number2, number1 % number2
+    return number1
 
+print(f"The greatest common factor is {greatest_common_factor(x, y)}")

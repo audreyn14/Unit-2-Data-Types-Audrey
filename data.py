@@ -60,9 +60,11 @@ print(f"The factors of are {factors}") """
 x=int(input("Enter a positive number "))
 y=int(input("Enter another positive number "))
 
-def greatest_common_factor(number1, number2):
-    while number2:
-        number1, number2 = number2, number1 % number2
-    return number1
+def gcf (x, y):
+    factors=[]
+    for i in range(1, (x,y)+1):
+        if x % i == 0 and y % i == 0:
+            factors.append(i)
+    return max(factors)
 
-print(f"The greatest common factor is {greatest_common_factor(x, y)}")
+print(f"The greatest common factor is {gcf(x,y)}")
